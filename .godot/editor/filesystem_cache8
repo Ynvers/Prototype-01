@@ -1,0 +1,14 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1720787748
+accueil.tscn::PackedScene::485641441133269268::1720745465::0::1::::<><>::uid://lfqoddo8td7s::::res://Search Projects __ Photos, videos, logos, illustrations and branding.jpeg<>res://Butto.gd
+Base.gd::GDScript::-1::1720742845::0::1::::<>Node2D<>::
+base.tscn::PackedScene::3687401163570715774::1720745465::0::1::::<><>::res://Base.gd<>uid://bqume5ihyjpgo::::res://_ (1).jpeg
+Butto.gd::GDScript::-1::1720743370::0::1::::<>Button<>::
+icon.svg::CompressedTexture2D::7756523348180705018::1720572494::1720706717::1::::<><>::
+Joueur.gd::GDScript::-1::1720615529::0::1::::<>Sprite2D<>::
+personage.tscn::PackedScene::6686124370269919701::1720745599::0::1::::<><>::res://Player.gd<>uid://dirk2oc51sdpa::::res://icon.svg
+Plateforme.gd::GDScript::-1::1720616416::0::1::::<>Sprite2D<>::
+plateforme.tscn::PackedScene::7170014500099200417::1720745587::0::1::::<><>::uid://dirk2oc51sdpa::::res://icon.svg
+Player.gd::GDScript::-1::1720745448::0::1::::<>CharacterBody2D<>::
+Search Projects __ Photos, videos, logos, illustrations and branding.jpeg::CompressedTexture2D::783395804672997126::1720705020::1720707057::1::::<><>::
+_ (1).jpeg::CompressedTexture2D::3551467072481062846::1720705007::1720707057::1::::<><>::

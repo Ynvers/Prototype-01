@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bssg7t7b1vaxi"]
+
+[ext_resource type="Script" path="res://Base.gd" id="1_avccv"]
+[ext_resource type="Texture2D" uid="uid://bqume5ihyjpgo" path="res://_ (1).jpeg" id="2_a8g4p"]
+
+[node name="Base" type="Node2D"]
+script = ExtResource("1_avccv")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(577.5, 384.5)
+scale = Vector2(1.56386, 1.33624)
+texture = ExtResource("2_a8g4p")

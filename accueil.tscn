@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://g6ipc1tcyk6o"]
+
+[ext_resource type="Texture2D" uid="uid://lfqoddo8td7s" path="res://Search Projects __ Photos, videos, logos, illustrations and branding.jpeg" id="1_8wors"]
+[ext_resource type="Script" path="res://Butto.gd" id="1_vm72d"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_arwoq"]
+
+[node name="Accueil" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(576, 323.5)
+scale = Vector2(2.94872, 2.70417)
+texture = ExtResource("1_8wors")
+
+[node name="Button" type="Button" parent="Background"]
+self_modulate = Color(1, 0.831373, 0.909804, 1)
+texture_filter = 2
+offset_left = -95.9739
+offset_top = -5.36208
+offset_right = 107.026
+offset_bottom = 84.6379
+text = "Start"
+icon = SubResource("CompressedTexture2D_arwoq")
+script = ExtResource("1_vm72d")
+
+[node name="Label" type="Label" parent="Background"]
+offset_left = -56.2957
+offset_top = -53.0663
+offset_right = 29.7043
+offset_bottom = -30.0663
+text = "Prototype1"
+
+[connection signal="pressed" from="Background/Button" to="Background/Button" method="_on_pressed"]
